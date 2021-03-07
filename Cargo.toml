@@ -1,0 +1,15 @@
+[package]
+name = "mesos"
+version = "0.1.0"
+authors = ["bfalk"]
+license = "MIT"
+
+[dependencies]
+debugger = { path = "libs/debugger" }
+basic_mutator = {path = "libs/basic_mutator"}
+
+log = "0.4.14"
+env_logger = "0.8.2"
+
+[profile.release]
+debug = true
